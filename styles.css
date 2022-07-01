@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: gainsboro;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    border: red 5px solid;
+    background-color: wheat;
+}
+.entrada, .saida{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 13vw;
+    background-color: red;
+    color: white;
+    border: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
